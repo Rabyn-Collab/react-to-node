@@ -1,24 +1,17 @@
-import { FaBicycle } from "react-icons/fa";
-import { FaBookAtlas, FaClapperboard } from "react-icons/fa6";
-
-
+import React from 'react'
+import Header from './ui/Header'
+import Home from './features/home/Home'
 
 const App = () => {
-
-
-
-
-
-
-
   return (
     <div>
 
+      <Header />
+      <Home />
 
 
     </div>
   )
 }
+
 export default App
-
-
